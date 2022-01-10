@@ -26,9 +26,6 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 9999;
 }
 
 header h1 {
@@ -82,7 +79,7 @@ section{
 }
 
 
-
+/* HERO BANNER START */
 .hero {
     background-image: url('../images/background.jpg');
     background-position: 85% 35%;
@@ -92,7 +89,9 @@ section{
     align-items: flex-end;
     
 }
+/* HERO BANNER END */
 
+/* CONTENT START */
 .section-title {
     font-size: 48px;
     padding-bottom: 20px;
@@ -107,11 +106,12 @@ section{
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
+    border-bottom: 1px solid var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .content-block h2 {
@@ -123,3 +123,34 @@ section{
     margin-left: 20px;
     flex: 2 70%;
 }
+
+
+.work-all-projects {
+    margin-left: 20px;
+    flex: 2 70%;
+}
+
+.work-label {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-weight: bold;
+}
+
+.project-box {
+    position: relative;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+}
+
+.project-box img {
+    min-width: 200px;
+}
+.sub-projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/* CONTENT END */
