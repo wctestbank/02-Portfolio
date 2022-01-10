@@ -93,17 +93,33 @@ section{
     
 }
 
-.flex-row {
-    display: flex;
-
-}
-
 .section-title {
     font-size: 48px;
     padding-bottom: 20px;
-    width: 50%;
+    width: 100%;
     border-bottom: 3px solid;
     margin: 0 auto 35px auto;
     color: var(--third-color);
     text-align: center;
+}
+
+.content-block {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-block h2 {
+    flex: 1 30%;
+    margin-right: 20px;
+}
+
+.about-info {
+    margin-left: 20px;
+    flex: 2 70%;
 }
