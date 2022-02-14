@@ -21,4 +21,4 @@ https://github.com/wctestbank/02-Portfolio
 
 ## Example Application screenshot
 
-![portfolio demo](./Assets/images/02-advanced-css-homework-demo.gif)
+![portfolio demo](./Assets/images/PortfolioScreenshot.png)
